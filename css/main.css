@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px;
+    background-color: #c3c3c3;
+}
+
+form {
+    padding: 15px 15px;
+    margin: 15px;
+    width: 100%;
+}
+
+.form-campo {
+    margin-bottom: 10px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+}
+
+button {
+    background-color: #009432;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #009432;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+
+}
+
+
+

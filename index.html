@@ -10,10 +10,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Cadastro de Clientes</h1>
+    </header>
+
+    <form>
+        <div class="form-campo">
+            <label for="name">Nome Completo:</label>
+            <input type="text" name="name" id="name"/>
+        </div>
+        <div class="form-campo">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"/>
+        </div>
+        <div class="form-campo">
+            <label for="telephone">Telefone</label>
+            <input type="tel" name="telephone" id="telephone"/>
+        </div>
+        <div class="form-campo">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf"/>
+        </div>
+        <div class="form-campo">
+            <label for="adress">Endereço Completo:</label>
+            <input type="text" name="adress" id="adress"/>
+        </div>
+        <div class="form-campo">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep"/>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
     
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
